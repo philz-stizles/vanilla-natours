@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass --watch sass/main.scss css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/philz-stizles/vanilla-natours/issues"
   },
-  "homepage": "https://github.com/philz-stizles/vanilla-natours#readme"
+  "homepage": "https://github.com/philz-stizles/vanilla-natours#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0"
+  }
 }
